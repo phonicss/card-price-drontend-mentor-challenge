@@ -1,0 +1,130 @@
+html{
+  box-sizing: border-box;
+  font-size: 13px;
+  font-family: cursive;
+  font-weight: 400;
+}
+
+h2, h4, p{
+  margin: 0;
+}
+
+body{
+  padding: 20px;
+}
+
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+
+
+
+#card {
+  width: 600px;
+  height: 400px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  border: 1px solid black;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+#top-section {
+  width: 100%;
+  height: 45%;
+  padding: 25px;
+  
+  
+}
+
+#bottom-section{
+  width: 100%;
+  height: 55%;
+  color: white;
+}
+
+#bottom-left-section{
+  display: inline-block;
+   width: 50%;
+  height: 100%;
+  vertical-align: top;
+  background-color: #2ab2af;
+  padding: 25px;
+  
+}
+#bottom-left-section p{
+  margin-top: 10px;
+  margin-left: 3px;
+}
+#bottom-left-section h4{
+  font-size: 20px;
+  margin-left: 3px;
+ 
+}
+
+#bottom-right-section{
+  display: inline-block;
+   width: 50%;
+  height: 100%;
+  vertical-align: top;
+  background-color: #1ac9c5;
+  padding: 25px;
+  
+}
+
+#bottom-right-section h4{
+  margin-top: -2px;
+  font-size: 20px;
+}
+#bottom-right-section ul{
+  padding:0px;
+  list-style: none;
+}
+
+#top-section h2{
+  color: #2ab2af;
+  margin-bottom: 20px;
+}
+#top-section h4{
+  color: #c0df34;
+  margin-bottom: 10px;
+    font-size: 14px;
+}
+#top-section p{
+  color: #98a6bd;
+  font-size: 16px;
+  
+}
+button{
+  color: black;
+  background: #74F395;
+  height:50px;
+  width:100%;
+  font-size: 17px;
+  border-radius:10px; 
+  margin-top: 25px;
+  
+
+}
+#button1:hover{ 
+   background-color: #4CAF50;
+   color: white;
+   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+   transition: 0.5s;
+   cursor: pointer;
+  
+}
+
+#price{
+  font-weight: 700;
+  font-size:25px;
+  display: inline-block;
+  margin-left: 3px;
+}
+
+#price-time{
+  display: inline-block;
+  font-size:13px;
+  padding: 10px;
+  position: relative;
+  top: -5px;
+}
