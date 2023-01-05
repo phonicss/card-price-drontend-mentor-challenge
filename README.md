@@ -1,2 +1,2 @@
-# card-price-drontend-mentor-challenge
+# card-price-frontend-mentor-challenge
 An implementation of the frontend mentor code challenge
